@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+            .wapper{
+                width: 100px;
+                border: 1px solid red;
+                background: black;
+            }
+            /* .wapper::after{
+                content:"";
+                display: block;
+                clear: both;
+            } */
+            .son{
+                width: 50px;
+                height: 20px;
+                background: blue;
+                float: left;
+            }
+            .clearfix::after{
+                content:"";
+                display: block;
+                clear: both;
+            }
+    </style>
+</head>
+<body>
+    <div class="wapper clearfix">
+        <div class="son">1</div>
+        <div class="son">2</div>
+    </div>
+    <ul class="clearfix">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+</body>
+</html>

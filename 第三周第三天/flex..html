@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .a{
+        display: flex;
+        flex-direction: raw;
+        /* flex-direction: raw; X轴排列*/
+        justify-content: center ;
+        /*当设置 flex-direction: raw; 
+        justify-content:设置为以下时
+         flex-start  默认向左
+         flex-end 默认向右
+         center 默认居中
+         felx-between 当有三个盒子时 两边顶边 中间平均分配
+         flex-around 一行平均分配
+          */
+        /* flex-direction:column Y轴排列 */
+           /*当设置 flex-direction: column; 
+        justify-content:设置为以下时
+         flex-start  默认向左上
+         flex-end 默认向左下
+         center 默认居左中
+         felx-between 当有三个盒子时 两边顶边 中间平均分配
+         flex-around 一行平均分配
+          */
+          /* align-items: center 交叉抽居中 */
+        height: 600px;
+        background: yellow;
+    }
+    .b{
+        width: 200px;
+        height: 200px;
+        background: rebeccapurple;
+    }
+    .c{
+        width: 200px;
+        height: 200px;
+        background: green;
+    }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b"></div>
+        <div class="c"></div>
+    </div>
+</body>
+</html>

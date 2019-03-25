@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            width: 1000px;
+            background: blue;
+            list-style: none;
+            text-align: center;
+        }
+        ul li{
+            height: 30px;
+            float:left;
+        }
+        ul li a{
+            color: white;
+            padding: 0px 5px;
+            line-height: 28px;
+            height: 28px;
+            text-decoration: none;
+            display: block;
+        }
+        a:hover{
+            border-bottom:2px solid orange;
+        }
+        .clearfix::after{
+                        content:"" ;
+                        display: block;
+                        clear: both;
+        }
+    </style>
+</head>
+<body>
+    <ul class="clearfix"> 
+        <li><a href="">首页</a> </li>
+        <li><a href="">前段架构</a> </li>
+        <li><a href="">前端就业课</a> </li>
+        <li><a href="">免费公开课</a> </li>
+        <li><a href="">全栈框架课</a> </li>
+        <li><a href="">视频教程</a> </li>
+        <li><a href="">珠峰团队</a> </li>
+        <li><a href="">关于珠峰</a> </li>
+       
+    </ul>
+</body>
+</html>

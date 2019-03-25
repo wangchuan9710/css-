@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @media  all and (min-width: 800px) {
+            div .div1 {
+                width: 25%
+            }
+            div .div2 {
+                width: 25%
+            }
+            div .div3 {
+                width: 25%
+            }
+            div .div4 {
+                width: 25%
+            }
+        }
+        @media  (min-width:600px) and (max-width: 799px) {
+            div .div1 {
+                width: 50%
+            }
+            div .div2 {
+                width: 50%
+            }
+            div .div3 {
+                width: 50%
+            }
+            div .div4 {
+                width: 50%
+            }
+        }
+        @media  (max-width: 599px) {
+            div .div1 {
+                width: 100%
+            }
+            div .div2 {
+                width: 100%
+            }
+            div .div3 {
+                width: 100%
+            }
+            div .div4 {
+                width: 100%
+            }
+        }
+        .div1{
+            background: red;
+        }
+        .div2{
+            background:purple;
+        }
+        .div3{
+            background:yellow;
+        }
+        .div4{
+            background:black;
+        }
+    .div1,.div2,.div3,.div4{
+        width: 25% ;
+        height: 200px;
+        float: left;
+    }
+
+    </style>
+</head>
+<body>
+<div>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <div class="div4"></div>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>注册</legend>
+            <label for="text">姓名</label>
+        <input id="text" type="text">
+
+        <label for="mm">密码：</label>
+        <input id="mm" type="password">
+        <input type="submit">
+    </fieldset>
+    <form action="">
+        <fieldset>
+            <legend>登录</legend>
+        姓名：<input type="text">
+        密码：<input type="password">
+        <input type="submit">
+    </fieldset>
+    </form>
+    <form action="">
+        <fieldset>
+            <!--  value 规定输入字段的初始值，需要更改时可以对选中文治进行修改 -->
+            <legend>登录</legend>
+        姓名：<input type="text" value="王川">
+        密码：<input type="password" value="201200">
+        <input type="submit">
+    </fieldset>
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>登录</legend>
+            <!-- readonly 规定字段只读不能被修改 能提交 -->
+        姓名：<input type="text" value="王川" name="王川" readonly>
+        密码：<input type="password" value="201200"readonly>
+        <input type="submit">
+    </fieldset>
+    </form>
+    <form action="">
+            <fieldset>
+                <legend>登录</legend>
+                <!-- disbbled规定字段只读不能被修改 不能提交  -->
+            姓名：<input type="text" name="王川" value="王川" disabled>
+            密码：<input type="password" value="201200"disabled>
+            <input type="submit">
+        </fieldset>
+        </form>
+       <fieldset>
+           
+       </fieldset>
+</body>
+</html>

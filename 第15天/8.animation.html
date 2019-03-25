@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* 第一步：通过@keyfromes创建动画帧
+         */
+        .wrapper{
+            width: 500px;
+            height: 500px;
+            margin: 40px auto;
+            border: 2px solid yellow;
+        }
+        @keyframes change{
+            0%{
+                background: yellowgreen;
+                margin-left: 0  
+                }
+            25%{
+                background: purple;
+                margin:0 0 400px 400px
+            }
+            50%{
+                background: black;
+                margin: 400px 0 0 400px
+            }
+            75%{
+                background: fuchsia;
+                margin: 400px 400px 0 0
+
+
+            }
+            100%{
+                background: hotpink;
+                margin: 0;
+            }
+        }
+        .son{
+            width: 100px;
+            height: 100px;
+            background: red;
+            animation: change 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="son"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style:none ;
+}
+a{
+    text-decoration:none; 
+}
+.header{
+    width: 100%;
+    overflow: hidden;
+}
+.bannner li{
+    width: 100%
+}
+.banner1 {
+    background: url(img/hero-bg-5.jpg) no-repeat left top;
+    background-size: cover;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+.banner1 li{
+    line-height: 50px;
+}
+.header .main li{
+    margin: 0 auto;
+}
+.header .banner1 h1{
+    background: url(img/whiteLogo.png) no-repeat left top;
+    background-size: 100px 30px;
+
+    width: 130px;
+    text-indent: -200px;
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+}
+.banner1 nav{
+    float: right;
+    margin-top: 20px;
+}
+.header .banner1 nav a{
+    float: left;
+    margin-right: 35px;
+    color:white;
+}
+.header .banner1  p{
+    font-size: 42px;
+    position: absolute;
+    left:200px;
+    top:350px;
+}
+.header .banner1 .lj{
+    display: block;
+    position: absolute;
+    left: 280px;
+    width:200px;
+    line-height: 40px; 
+    text-align: center;
+    top: 430px;
+    border: 3px solid red;
+    background:rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+.header .banner1 span{
+    width: 100%;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    background:rgba(0, 0, 0, 0.6);
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
+.banner2 {
+    background: url(img/hero-bg-7.jpg) no-repeat left top;
+    background-size: cover;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+.banner2 li{
+    line-height: 50px;
+}
+
+.header .banner2 h1{
+    background: url(img/whiteLogo.png) no-repeat left top;
+    background-size: 100px 30px;
+
+    width: 130px;
+    text-indent: -200px;
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+}
+.banner2 nav{
+    float: right;
+    margin-top: 20px;
+}
+.header .banner2 nav a{
+    float: left;
+    margin-right: 35px;
+    color:white;
+}
+.header .banner2  p{
+    font-size: 42px;
+    position: absolute;
+    left:200px;
+    top:350px;
+}
+.header .banner2 .lj{
+    display: block;
+    position: absolute;
+    left: 280px;
+    width:200px;
+    line-height: 40px; 
+    text-align: center;
+    top: 430px;
+    border: 3px solid red;
+    background:rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+.header .banner2 span{
+    width: 100%;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    background:rgba(0, 0, 0, 0.6);
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
+.banner3 {
+    background: url(img/hero-bg-8.jpg) no-repeat left top;
+    background-size: cover;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+.banner3 li{
+    line-height: 50px;
+}
+
+
+.header .banner3 h1{
+    background: url(img/whiteLogo.png) no-repeat left top;
+    background-size: 100px 30px;
+
+    width: 130px;
+    text-indent: -200px;
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+}
+.banner3 nav{
+    float: right;
+    margin-top: 20px;
+}
+.header .banner3 nav a{
+    float: left;
+    margin-right: 35px;
+    color:white;
+}
+.header .banner3  p{
+    font-size: 42px;
+    position: absolute;
+    left:200px;
+    top:350px;
+}
+.header .banner3 .lj{
+    display: block;
+    position: absolute;
+    left: 280px;
+    width:200px;
+    line-height: 40px; 
+    text-align: center;
+    top: 430px;
+    border: 3px solid red;
+    background:rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+.header .banner3 span{
+    width: 100%;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    background:rgba(0, 0, 0, 0.6);
+    text-align: center;
+    line-height: 40px;
+}
+
+.header ul{
+    width: 300%
+}
+.header ul li{
+    float: left;
+    width: 33%;
+}
+
+   /* .con a{
+    display: block;
+    height: 360px;
+    width:427px;
+    text-align: center;  
+}  */
+.con{
+    width:100%;
+    margin-top: 30px;
+}
+.con li{
+    float: left;
+    height:190px ;
+    width: 25%;
+}
+
+.con .img1 {
+    background:url(img/promo-01.jpg) no-repeat left center;
+    background-size: cover;
+}
+.con .img2{ 
+    background:url(img/promo-02.jpg) no-repeat left center;
+    background-size: cover;
+
+}
+.con .img3{
+    background:url(img/promo-03.jpg) no-repeat left center;
+    background-size: cover;
+
+}
+.con .img4{
+    background:url(img/promo-04.jpg) no-repeat left center;
+    background-size: cover;
+}
+.con li a{
+    display: inline-block;
+    width: 277px;
+    height: 190px;
+    text-align: center;
+}
+ @media all and (min-width:1080px){
+    .con li {
+        width:25%;}
+    } 
+@media all and (min-width:640px) and (max-width:1079px){
+    .con li {
+        width:50%;
+    }
+}
+@media all and (max-width:639px){
+    .con li {
+        width:100%;
+    } 
+} 
+ .gz{
+    margin:30px 75px ;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+.gz li{
+    list-style: none;
+    float: left;
+    line-height: 30px;
+    width: 33%;
+    margin-right: 2px; 
+ }
+.icon1 {
+    background: url(img/icon-wechat.png) no-repeat left top;
+    background-size: contain;
+    text-indent: 90px;
+}
+.icon2{
+    background: url(img/icon-rp.png) no-repeat left center;
+    text-indent: 90px;
+    background-size: contain;
+
+}
+.icon3{
+    background: url(img/icon-credit.png) no-repeat left center;
+    text-indent: 90px;
+    background-size: contain;
+}
+.footer{
+    border-top:2px solid black;
+}
+.footer dl{
+    float: left;
+}
+.d1{
+    margin: 30px 275px 30px 75px;
+    line-height: 30px
+}
+.d2{
+    margin: 30px 100px 30px 0;
+    line-height: 30px
+} 
+ .d3{
+    margin: 30px 100px 30px 0;
+    line-height: 30px
+}
+.d4{
+    margin: 30px 100px 30px 0;
+    line-height: 30px
+}
+.d5{
+    margin: 30px 100px 30px 0;
+    line-height: 30px
+}
+ .mo p{
+     height: 25px;
+     width: 100%;
+     margin-left: 200px;
+ }
+  .clearfix::after{
+     content:"";
+     display: block;
+     clear: both;
+ }  

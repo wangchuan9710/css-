@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 注释法处理兼容问题
+        if It IE 9 如果浏览器版本小于IE9
+    -->
+    <!--[if lt IE 9]>
+    <script src="jsml5shiv.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="html5.js"></script>
+    <style>
+    body{
+        margin: 0;
+    }
+    header{
+        text-align: center;
+        line-height: 50px;
+        background: yellowgreen;
+    }
+    nav{
+        background: green;
+        line-height: 40px;
+    }
+    nav a{
+        float: left;
+        width: 20%;
+        text-decoration: none;
+        text-align: center;
+    }
+    nav::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    section{
+        margin-bottom: 10px;
+        line-height: 40px;
+        background: purple;
+        text-align: center;
+    }
+    footer{
+        line-height: 40px;
+        text-align: center;
+        background: yellowgreen;
+    }
+    </style>
+</head>
+<body>
+    <header>我是头部</header>
+    <nav>
+        <a href="#">首页</a>
+        <a href="#">首页</a>
+        <a href="#">首页</a>
+        <a href="#">首页</a>
+        <a href="#">首页</a>
+    </nav>
+    <section>我是内容部分</section>
+    <section>我是内容部分</section>
+    <section>我是内容部分</section>
+    <section>我是内容部分</section>
+    <section>我是内容部分</section>
+    <footer>我是尾部</footer>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    div{
+        width: 300px;
+        /* height: 20px; */
+        border: 3px solid rebeccapurple;
+        overflow: hidden;
+        /* 弹性盒子 */
+        display:-webkit-box;
+        /* 垂直排列 */
+        -webkit-box-orient: vertical;
+        /* 显示行数 */
+        -webkit-line-clamp:3;
+    }
+    </style>
+</head>
+<body>
+    <div>ont-size:字体大小为0
+        - visibility：hidden 原来的位置还在
+        - line-hight:0 行高设置为0
+        display:none 和visibility:hidden的区别
+        前者不占位完全消失 后者占位只是视觉上消失，浏览器会解析该元素
+        ### -单行文本加省
+    </div>
+</body>
+</html>

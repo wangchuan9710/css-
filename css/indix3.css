@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 1204px;
+    margin :0 auto;
+    background:yellow;
+}
+.header h1,.header .nav li,.header .car,.header .login li{
+    float: left; 
+}
+.header .nav li a,.header .car span,.header .login li a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 50px;
+}
+.header h1{
+    background: url(../img/logo.png) no-repeat left center;
+    width: 176px;
+    height:53px;
+    text-indent: -200px;
+    overflow: hidden;
+    margin: 16px 85px 16px 1px;
+}
+.header .nav li{
+    margin: 39px 57px 16px 0px;
+    list-style: none;
+}
+.header .car{
+    background: url(../img/car2.png) no-repeat left center;
+    padding-left: 31px;
+     margin:39px 20px 31px 0; 
+     width: 80px;
+     height: 50px; 
+     position: relative;  
+}
+.header .car:hover{
+    background: url(../img/car1.png) no-repeat left center;
+    /* cursor: pointer; */
+}
+.header .car .carDetail{
+    width: 350px;
+    height: 411px;
+    left: 50%;
+    left: -165px;
+    border: gray solid 1px;
+    border-radius: 3%;
+    position: absolute;
+    background: turquoise;
+    position: relative;
+} 
+.header .car .carDetail .aa{
+    widows: 324px; 
+    height:52px ;
+    border-bottom: 1px solid black; 
+    background: red;
+    position: absolute;
+    left:22px ;
+    top: 19px;
+}  
+/* .header .car .carDetail .aa>h4{
+width: 79px;
+height:20px; 
+float: right;
+}   */
+/* .header .car .carDetail .aa span{
+    width: 52px;
+    height: 13px;
+    display: inline-block;
+}
+.header .car .carDetail .aa span{
+    float: right;
+}   */
+
+   .header .car .carDetail .bb{
+      width: 324px;
+      height: 290px;
+      position: absolute;
+      left: 22px;
+      top:52px;
+      background: purple
+ }  
+  /* .header .car .carDetail .bb span{
+     background: url(../img/car.png) no-repeat 50%;
+     padding-left: 10px;
+     padding-right: 10px;
+     display:block;
+     width: 190px;
+     height: 130px;
+     margin: 0px 100px ;
+ }  */
+   /* .header .car .carDetail .bb a{
+      widows: 190px;
+      height: 130px;
+    border-top: 1px solid black;
+    margin: 0px 100px;
+}  */
+.header .car .carDetail .cc{
+    widows: 324px; 
+    height: 70px;
+} 
+/* .header .car .carDetail .cc span{
+    width: 72px;
+    height: 13px;
+    margin: 4px 0px 0px 16px;
+}  */
+/* .header .car .carDetail .cc input{
+    width: 79px;
+    height: 39px;
+    float:right;
+    background: blue;
+    margin: 4px 16px 0px 0; 
+}  */
+.header .login li{
+    list-style: none;
+    margin: 39px 35px 31px 0;
+}
+.header .login{
+    margin: 0px 22px 0px 0px;
+}
+.header ul li a:hover{ 
+    color:blue;
+    border-bottom:  5px solid yellow;
+}
+    /* .header .car .carDetail{
+    display:none 
+    }
+    .header .car:hover .carDetail{
+        display:block
+        }
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;} 

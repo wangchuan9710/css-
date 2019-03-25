@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 1204px;
+    margin :0 auto;
+    background:azure;
+}
+.header h1,.header .nav li,.header .car span,.header .login li a{
+    float: left;
+}
+.header .nav li a,.header .car span,.header .login li a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 50px;
+}
+.header h1{
+    background: url(../img/logo.png) no-repeat left center;
+    width: 190px;
+    height:84px;
+    text-indent: -200px;
+    overflow: hidden;
+    margin: 16px 85px 16px 1px;
+}
+.header .nav li{
+    list-style: none;
+    margin: 39px 57px 15px 0px;
+}
+.header .car>span{
+    background: url(../img/car2.png) no-repeat left center;
+    padding-left: 35px;
+    margin:39px 39px 31px 0;
+}
+.header .car span:hover{
+    background: url(../img/car1.png) no-repeat left center;
+    cursor: pointer;
+}
+.header .login li{
+    list-style: none;
+    margin: 39px 35px 31px 0;
+}
+.login{
+    margin: 0px 22px 0px 0px;
+}
+.header ul li a:hover{ 
+    color:blue;
+    border-bottom:  5px solid yellow;}
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}

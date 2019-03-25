@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    label{
+        width: 100px;
+        height: 50px;
+        background: #999;
+        display: inline-block;
+        border-radius: 25px;
+    }
+    label::before{
+        content: "";
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background: #6e4343;
+        border-radius:50%; 
+    }
+     input:checked+label{
+        background: green;
+    } 
+    input:checked+label::before{
+        background: ghostwhite;
+        transform:translate(50px ,0);
+    }
+    </style>
+</head>
+<body>
+    <input checked id="onoff" type="checkbox">
+    <label for="onoff"></label>
+</body>
+</html>

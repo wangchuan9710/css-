@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 1204px;
+    margin :0 auto;
+}
+.header h1,.header .nav li,.header .car,.header .login li{
+    float: left; 
+}
+.header .nav li a,.header .car span,.header .login li a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 50px;
+}
+.header h1{
+    background: url(../img/logo.png) no-repeat left center;
+    width: 176px;
+    height:53px;
+    text-indent: -200px;
+    overflow: hidden;
+    margin: 16px 85px 16px 1px;
+}
+.header .nav li{
+    margin: 39px 57px 16px 0px;
+    list-style: none;
+}
+.header .car{
+    background: url(../img/car2.png) no-repeat left center;
+    padding-left: 31px;
+     margin:39px 20px 31px 0; 
+     width: 80px;
+     height: 50px; 
+     position: relative; 
+     cursor: pointer; 
+}
+.header .car:hover{
+    background: url(../img/car1.png) no-repeat left center;
+    /* cursor: pointer; */
+}
+.header .car .carDetail{
+    width: 350px;
+    height: 400px;
+    left: 50%;
+    left: -165px;
+    border: gray solid 1px;
+    border-radius: 3%;
+    position: absolute;
+    background: turquoise;
+    z-index: 2;
+} 
+.header .car .carDetail .aa{
+    border-bottom: 1px solid black;
+    margin: 0 13px;
+} 
+.header .car .carDetail h3{
+    display:inline-block;
+    margin: 19px 0px 16px 19px;
+} 
+ .header .car .carDetail .aa span{
+   padding: 19px 3px 16px 0;
+    float: right;
+} 
+
+  .header .car .carDetail .bb{
+      width: 320px;
+      height: 290px;
+    border-bottom: 1px solid black;
+    margin: 0 13px;
+    
+ } 
+  .header .car .carDetail .bb span{
+     background: url(../img/car.png) no-repeat 50%;
+     padding-left: 10px;
+     padding-right: 10px;
+     display:block;
+     width: 190px;
+     height: 130px;
+     margin: 0px 100px ;
+ } 
+   .header .car .carDetail .bb a{
+      widows: 190px;
+      height: 130px;
+    border-top: 1px solid black;
+    margin: 0px 100px;
+} 
+ .header .car .carDetail .cc{
+    widows: 320px; 
+    height: 70px;
+} 
+.header .car .carDetail .cc span{
+    width: 72px;
+    height: 13px;
+    margin: 4px 0px 0px 16px;
+} 
+.header .car .carDetail .cc input{
+    width: 79px;
+    height: 39px;
+    float:right;
+    background: blue;
+    margin: 4px 16px 0px 0;
+} 
+.header .login li{
+    list-style: none;
+    margin: 39px 35px 31px 0;
+}
+.header .login{
+    margin: 0px 22px 0px 0px;
+}
+.header ul li a:hover{ 
+    color:blue;
+    border-bottom:  5px solid yellow;
+}
+.header .car .carDetail{
+    display:none 
+    }
+.header .car:hover .carDetail{
+        display:block
+        }
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;} 
+
+.banner{
+    width: 1204px;
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+}
+.main{
+    width: 1204px;
+    margin: auto;
+}
+    .banner .banner-img{
+        width: 400%;
+        height:360px ;
+    }    
+    .banner .banner-img li{
+        list-style: none;
+        width: 1204px; 
+        height:360px ;
+        float: left;
+    }
+    .banner .banner-img  li  img{
+        width: 1204px;
+        height: 360px;
+    }
+    .banner-menu{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 240px;
+        height: 360px;
+
+    }
+    .banner-menu li{
+        list-style: none;
+        width: 240px;
+        background:rgb(188, 188, 196);
+
+    }
+    .banner-menu li dl{
+
+        width: 240px;
+        height: 360px;
+        position:absolute ;
+        left: 240px;
+        top: 0;
+        background: rgb(185, 181, 206);
+        display: none;
+    }
+    .banner-menu li dl dt{
+        line-height: 72px;
+        width: 240px;
+        height: 72px;
+    }
+    .banner-menu li dl dd{
+        line-height: 72px;
+        width: 240px;
+        height: 72px;
+    }
+    .banner .banner-menu li:hover dl{
+        display: block;
+    }
+    .banner-menu li a{
+        text-decoration: none;
+        display: block;
+        line-height: 72px;
+        height:72px ;
+        margin: 0 25px;
+        border-bottom: 1px solid blueviolet;
+        background: url(../img/jiantou.png) no-repeat right center;
+
+    }
+    .banner-menu li:last-child a{
+        border-bottom: none;
+    }
+    .course{
+        width: 1204px;
+        margin: 0 auto;
+        position: relative;
+        cursor: pointer;
+    }
+  .content{
+      position: relative;
+      border: 3px solid rgba(red, green, blue, alpha)
+  }
+.course .he{
+    margin: 38px 0 22px 0px
+}
+.content li{
+    float: left;
+    width: 251px;
+    height: 184px;
+    margin-right: 66px;
+    /* box-shadow: 3px solid rgba(red, green, blue, 0.1); */
+    position: relative;
+    box-shadow: 0 0 15px 2px rgb(82, 75, 75);
+    }
+.course .content li:last-child{
+    margin-right:0px ; 
+} 
+.content img{
+    width: 251px;
+    height: 184px;
+}
+ .course .content .box{
+  width: 251px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: white;
+  padding: 16px 0 0 16px;
+} 
+.course .content li .box .box1{
+    margin-bottom: 34px
+}
+.course .content li .box .box1 p{
+    display: none;
+}
+.course .content li .box .box1 h4{
+    line-height:22px ;
+    font-size: 14px;
+    color: #1e1e1e;
+}
+.course .content li .box .box2{
+    padding: 0px 0 0 16px;
+}
+.course .content li .box .box2 span{
+    margin-right: 43px;
+}
+.course .content li .box .box1:hover p{
+    display:block 
+}
+.pp{
+    width: 1204px ;
+    margin: o auto;
+    margin-top:30px;
+    cursor: pointer;
+    background: #f3f5f7;
+}
+.pp .oo,.ii,.uu,.yy{
+    float: left;
+
+}
+.pp .oo,.ii,.uu{
+    margin-right:17px;
+
+}
+.pp .oo{
+    width: 224px;
+    height: 380px;
+    position: relative;
+}
+.pp .oo .ooo{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.pp .oo .ooo .h22{
+    margin-top:40px;
+    margin-left: 18px;
+}
+.pp .oo .ooo .h222{
+    margin-top:12px;
+    margin-left: 18px;
+}
+.pp .oo .ooo .p1{
+    margin-top: 30px;
+    margin-left: 18px;
+}
+.pp .oo .ooo .p2{
+    margin-top: 135px;
+    margin-left: 18px;
+}
+.pp .oo .ooo .p3{
+    margin-top: 16px;
+    margin-left: 18px;
+}
+
+.pp .oo img{
+    width: 224px;
+    height: 380px;
+}
+.pp .ii{
+    width: 395px;
+    height: 380px;
+}
+.pp .ii .iii{
+    position: relative;
+    margin-bottom: 16px;
+}
+.pp .ii .iii h4{
+    position: absolute;
+    left: 50px;
+    bottom:77px;
+    font-size: 24px;
+    color: white;}
+.pp .ii .iiii{
+    position: relative;
+    margin-bottom: 16px;
+}
+.pp .ii .iiii h4{
+    position: absolute;
+    left: 50px;
+    bottom:77px;
+    font-size: 24px;
+}
+
+.pp .ii img{
+    width: 397px;
+    height: 185px;
+}  
+ .pp .uu{
+    width: 250px;
+    height: 380px;
+}
+.pp .uu .uuu{
+    margin-bottom: 12px;
+}
+.pp .uu .uuu .box{
+    padding-left: 16px; 
+}
+
+ .pp .yy{
+    width: 270px;
+    height: 380px;
+    position: relative;
+
+}
+.pp .yy .yyy{
+    position: absolute;
+    left: 0;
+    top:0 ;
+}
+.pp .yy .yyy h4{
+    margin-left: 25px;
+    margin-top:102px;
+}
+.pp .yy .yyy span{
+    margin-left: 25px;
+    margin-top:40px;
+}
+.pp .yy .yyy ul{
+    margin-left: 25px;
+    margin-top:40px;
+}
+.pp .yy .yyy ul li{
+    margin-left: 25px;
+    margin-top:17px;
+}
+.pp .yy img{
+    width: 270px;
+    height: 380px;
+} 
+.foot{
+    /* width: 1204px; */
+    height: 266px;
+    margin: 0 auto ;
+    margin-top: 50px;
+    background: #2e2e2e ;
+    cursor: pointer;
+    
+}
+
+.foot .f1,.f2,.f3,.f4,.f5,.f6{
+    float: left;
+}
+.foot .foo{
+    margin-left: 85px;
+    margin-top:50px ;
+
+}
+.foot .foo dl{
+    margin-right: 92px;
+    margin-top:35px ;
+}
+/* .foot .foo dl:last-child{
+    margin-right: 0px
+} */
+.foot .foo dl dt{
+    margin-bottom:20px ;
+    font-size: 16px;
+}
+.foot .foo dl dd{
+    margin-bottom: 12px;
+    font: size 14px; 
+}
+.foot .f6 .dd1{
+    width: 198px;
+    height: 62px;
+    overflow: hidden;
+}
+.foot .f6 .dd2,.dd3,.dd4,.dd5{
+    float: left;
+    margin-right: 18px;
+}
+.end{
+    margin: 0 auto;
+    background: #212121;
+    cursor: pointer;
+
+}
+.end p{
+    text-align: center;
+}
+ 

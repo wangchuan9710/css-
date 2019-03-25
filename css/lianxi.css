@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header .nav li,.header .login li{
+    list-style: none;
+}
+.header .nav li a,.header .login li a{
+    text-decoration: none;
+}
+/* .header h1,.header .nav li,.header .car span,.header .login li a{
+    float: left;
+} */
+  /* .header .logo h1,.header .nav li a,.header .car span,.header .login li a{
+     float: left;
+ }  */
+ .header .logo h1{
+     float: left;
+ }
+ .header .nav li a{
+     float: left;
+ }
+
+ .header .login li a{
+     float: left
+ }
+.header{
+    width: 1204px;
+    margin: 0 auto;
+    background: red;
+    line-height: 84px;
+    
+}
+/* .header h1{
+    background: url(../img/logo.png) no-repeat left center;
+    width: -200px;
+    overflow: hidden;
+    width: 176px;
+    height:51px;
+} */
